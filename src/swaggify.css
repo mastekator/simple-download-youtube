@@ -1,0 +1,42 @@
+#videoDownloadDropdown {
+    background: #fff;
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 200px;
+    z-index: 99999;
+    padding-top: 1;
+    margin-top: 40px;
+    margin-left: 177px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+    display: none;
+}
+
+#videoDownloadDropdown.shown {
+    display: block;
+}
+
+#videoDownloadDropdown.shown ul {
+    padding-left: 10px;
+}
+
+#downloadVideo {
+    background: white;
+    display: block;
+    border: none;
+    padding-top: -16px;
+    height: 36px;
+    color: rgb(148, 146, 144);
+    font-weight: bold;
+}
+
+#videoDownloadDropdown a {
+    display: block;
+    padding: 10px;
+    color: #444;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#videoDownloadDropdown a:hover {
+    background: #eee;
+}

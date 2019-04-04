@@ -12,6 +12,6 @@ Google extension on JavaScript, it add the button, that helps you to download vi
 ## How to setup
 
 1. Go to chrome://extensions/ and turn on developer mode on.
-2. Load unpacked.
+2. Click on "Load unpacked" and choose your directory.
 3. Complete!
 
